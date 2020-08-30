@@ -1,0 +1,20 @@
+@media(max-width: 500px){
+    .bold1{
+        font-size: 55px;
+    }
+}
+.videos{
+    padding-top: 4%;
+    width: 100%;
+}
+.lema, .italic{
+    font-size: 20px;
+    color: black;
+}
+.italic{
+    font-style: italic;
+}
+.contador{
+    padding-top: 4%;
+    margin-bottom: 4%;
+}

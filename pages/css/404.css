@@ -1,0 +1,132 @@
+@import url('../webfonts/fonts.css');
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "SF Display";
+}
+/*
+ERROR 404
+*/
+
+.error{
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+.number{
+    font-size: 100px;
+    font-weight: 900;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.austronauta{
+    animation: float 4s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+/*
+AVISO DE PRIVACIDAD
+*/
+
+.avisoprivacidad{
+    padding-top: 5%;
+}
+
+#history{
+    color: black;
+}
+.splash{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url('../images/bg_1.jpg');
+    background-size: cover;
+}
+
+.splash::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/splash.jpg');
+    background-size: 100vh;
+    background-position: center;
+    mix-blend-mode: screen;
+}
+
+/*
+FORM GRACIAS
+*/
+
+
+.parallax{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#parallax{
+    background-image: url('https://lxrd17.github.io/gacetav1_3/images/gacetacover1.png');
+}
+.btn{
+    padding: 5px 40px;
+}
+.splash{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url('../images/gacetacover1.png');
+    background-size: cover;
+}
+
+.splash::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('splash.jpg');
+    background-size: 100vh;
+    background-position: center;
+    mix-blend-mode: screen;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+403
+*/
